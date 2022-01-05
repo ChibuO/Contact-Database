@@ -3,8 +3,6 @@
 
 import sqlite3
 
-g = ["KEY", "fname" , "lname", "major", "year", "state", "met"]
-
 #add queries separately so it's easier to change later on
 CREATE_CONTACTS_TABLE = """CREATE TABLE IF NOT EXISTS contacts 
 (id INTEGER PRIMARY KEY, fname TEXT, lname TEXT, major TEXT, year INTEGER, state TEXT, met TEXT);"""
